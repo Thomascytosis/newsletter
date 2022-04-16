@@ -10,8 +10,8 @@ const { nextTick } = require("process");
 const res = require("express/lib/response");
 
 mailchimp.setConfig({
-  apiKey: "2c6d3ea79083f749ff55adb03c546c55-us14",
-  server: "us14",
+  apiKey: {CHIMP_API},
+  server: {CHIMP_SERV},
 });
 // node
 const app = express();
