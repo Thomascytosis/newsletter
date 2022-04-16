@@ -1,4 +1,6 @@
 # Environmental variables
 *.env
 # Node Modules Folder
+node_modules/
+node_modules
 /node_modules
